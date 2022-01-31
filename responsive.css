@@ -1,0 +1,353 @@
+@media (max-width: 1024px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  .nav-links {
+    display: none;
+  }
+  .navbar-toggle {
+    display: block;
+    animation: nav-load1 700ms;
+  }
+
+  @keyframes nav-load1 {
+    0% {
+      margin-left: 100px;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .fa-bars {
+    display: block;
+    font-size: 30px;
+  }
+  .navbar {
+    display: block;
+  }
+  .service-list {
+    flex-direction: column;
+  }
+  .branding {
+    margin-left: 450px;
+  }
+  .fa-amazon {
+    margin-left: 460px;
+  }
+  .fa-award {
+    margin-left: 460px;
+  }
+  .service-text {
+    margin: 200px 0 70px 400px;
+  }
+  .blog-list {
+    flex-direction: column;
+  }
+  .blog1 p {
+    margin-left: 500px;
+    margin-top: -220px;
+  }
+  .blog1 h2 {
+    display: none;
+  }
+  .blog2 p {
+    margin-left: 500px;
+    margin-top: -220px;
+  }
+  .blog2 h2 {
+    display: none;
+  }
+  .blog3 p {
+    margin-left: 500px;
+    margin-top: -220px;
+  }
+  .blog3 h2 {
+    display: none;
+  }
+  .about {
+    margin-left: 20px;
+  }
+  .products {
+    margin: 100px 0 70px 400px;
+  }
+  .blogs {
+    margin: 100px 0 70px 400px;
+  }
+  .load-more {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navigation {
+    position: relative;
+  }
+  .about {
+    width: 50%;
+    height: 350px;
+    margin-top: 230px;
+    margin-bottom: 80px;
+    margin-right: 140px;
+  }
+  .service-text {
+    margin: 200px 0 70px 300px;
+  }
+  .branding {
+    margin-left: 350px;
+  }
+  .fa-amazon {
+    margin-left: 360px;
+  }
+  .fa-award {
+    margin-left: 360px;
+  }
+  .products {
+    margin: 100px 0 70px 300px;
+  }
+  .blogs {
+    margin: 100px 0 70px 300px;
+  }
+  .blog1 p {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .blog1 h2 {
+    display: none;
+  }
+  .blog2 p {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .blog2 h2 {
+    display: none;
+  }
+  .blog3 p {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .blog3 h2 {
+    display: none;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    margin-left: 60px;
+    margin-bottom: 140px;
+  }
+  .footer {
+    flex-direction: column;
+    height: 500px;
+  }
+  .contact-info {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .chair {
+    margin-right: 20px;
+  }
+  .home-content {
+    height: 300px;
+  }
+  .content-div {
+    margin-left: 20px;
+  }
+  .section2 {
+    display: block;
+  }
+  .about-header {
+    margin-left: 150px;
+  }
+  .about {
+    width: 40%;
+    height: 350px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-right: 140px;
+  }
+  .about-img {
+    width: 300px;
+    margin-left: 40px;
+  }
+  .about-text {
+    width: 400px;
+  }
+  .service-text {
+    margin: 200px 0 70px 170px;
+  }
+  .branding {
+    margin-left: 190px;
+  }
+  .fa-amazon {
+    margin-left: 200px;
+  }
+  .fa-award {
+    margin-left: 200px;
+  }
+  .section3 {
+    height: 500px;
+  }
+  .products {
+    margin: 100px 0 70px 150px;
+  }
+  .product-list1,
+  .product-list2 {
+    display: block;
+  }
+  .product-list1 {
+    margin-left: 40px;
+  }
+  .product-list2 {
+    margin: -620px 0 0 250px;
+  }
+  .product1,
+  .product2,
+  .product3,
+  .product4 {
+    width: 150px;
+    height: 150px;
+  }
+  .product-list1 p,
+  .product-list2 p {
+    display: none;
+  }
+  .blogs {
+    margin: 100px 0 70px 150px;
+  }
+  .blog-header {
+    width: 400px;
+    margin-left: -110px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    width: 500px;
+    height: 300px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    margin-left: -40px;
+    margin-bottom: 140px;
+  }
+  .blog1-img,
+  .blog2-img,
+  .blog3-img,
+  .blog4-img {
+    width: 70%;
+    height: 80%;
+  }
+  .useful-links {
+    margin-left: 10px;
+    height: 200px;
+  }
+  .privacy {
+    margin-left: -20px;
+  }
+  .contact-info {
+    margin-left: -300px;
+    margin-top: 300px;
+  }
+  .footer {
+    height: 700px;
+  }
+  .privacy h3 {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .about-header {
+    margin-left: 100px;
+  }
+  .about {
+    width: 30%;
+    height: 350px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-right: 140px;
+  }
+  .about-img {
+    width: 250px;
+    margin-left: 10px;
+  }
+  .about-text {
+    width: 270px;
+  }
+  .service-text {
+    margin: 200px 0 70px 170px;
+  }
+  .branding {
+    margin-left: 120px;
+  }
+  .fa-amazon {
+    margin-left: 129px;
+  }
+  .fa-award {
+    margin-left: 129px;
+  }
+  .services {
+    margin-left: -90px;
+  }
+  .products {
+    margin: 100px 0 70px 150px;
+  }
+  .product-list1,
+  .product-list2 {
+    display: block;
+  }
+  .product-list1 {
+    margin-left: 10px;
+  }
+  .product-list2 {
+    margin: -620px 0 0 170px;
+  }
+  .product1,
+  .product2,
+  .product3,
+  .product4 {
+    width: 150px;
+    height: 150px;
+  }
+  .blogs {
+    margin: 100px 0 70px 150px;
+  }
+  .our-blogs {
+    margin-left: -70px;
+  }
+  .blog-header {
+    width: 400px;
+    margin-left: -150px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    width: 500px;
+    height: 300px;
+  }
+  .blog1,
+  .blog2,
+  .blog3 {
+    margin-left: -70px;
+    margin-bottom: 140px;
+  }
+  .blog1-img,
+  .blog2-img,
+  .blog3-img,
+  .blog4-img {
+    width: 50%;
+    height: 60%;
+  }
+  .summary {
+    margin-left: 40px;
+    margin-top: 70px;
+  }
+  .summary p {
+    width: 250px;
+  }
+}

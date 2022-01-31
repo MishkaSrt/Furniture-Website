@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/c495957bca.js" crossorigin="anonymous"></script>
+    <title>Log In</title>
+</head>
+<body>
+    <section class="section1">
+        <header class="header">
+            <nav class="navigation">
+                <a href="#"><h2 class="name">Furniture Mart</h2></a>
+
+                <ul class="nav-links" id="nav-links">
+                    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                
+                <ul class="nav-links nav-links1">
+                    <li><i class="fas fa-search" style="display: block;margin-left: 25px;"></i><a href="#">Search</a></li>
+                    <li><i class="far fa-user" style="display: block;margin-left: 30px;"></i><a href="login.html">Account</a></li>
+                    <li><i class="fas fa-shopping-cart" style="display: block; margin-left: 15px;"></i><a href="#">Cart</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <div class="form-div">
+        <form action="" method="POST" class="login" id="login">
+            <h2>Sign In</h2>
+
+            <div>
+                <input type="text" name="username" placeholder="Enter your username">
+                <div class="error-text" id="error_username"></div>
+            </div>
+            <div>
+                <input type="password" name="password" placeholder="Enter your password">
+                <div class="error-text" id="error_password"></div>
+            </div>
+            <button class="submit">Log In</button>
+            <h3>Or sign in using:</h3>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            
+        </form>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>

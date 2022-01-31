@@ -1,0 +1,79 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f3f3;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width: 100%;
+  background-color: #e2e4e5;
+}
+.name {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+.navigation a {
+  transition: color 0.5s;
+}
+.navigation a:hover {
+  color: #f2f3f3;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links a {
+  transition: color 0.5s;
+}
+.nav-links a:hover {
+  color: #f2f3f3;
+}
+.nav-links li {
+  font-size: 20px;
+  padding-right: 20px;
+}
+.login {
+  text-align: center;
+  margin-top: 150px;
+}
+.login h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.login input {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.login input::placeholder {
+  font-size: 16px;
+}
+.login button {
+  font-size: 20px;
+  margin: 20px 0 0 15px;
+  border-radius: 4px;
+}
+.login h3 {
+  font-size: 20px;
+}
+.fa-google,
+.fa-twitter,
+.fa-instagram {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.error-text {
+  color: red;
+}
+.form-div {
+  width: 400px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: 240px;
+  background-color: #e2e4e5;
+  border: none;
+  border-radius: 2px;
+}
